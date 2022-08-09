@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #f6f7fb;
-  font-family: 'Roboto', 'san-serif';
+  background-color: #a28c9c;
+  font-family: 'Muli', 'san-serif';
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +15,34 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+h3 {
+  color: #fff;
+  margin: 10px 0 20px;
+}
+
+.container {
+  width: 500px;
+}
+
+textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.tag {
+  background-color: #efe1c4;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block
 }
