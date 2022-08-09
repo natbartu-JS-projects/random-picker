@@ -44,5 +44,10 @@ textarea {
   padding: 10px 20px;
   margin: 0 5px 10px 0;
   font-size: 14px;
-  display: inline-block
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: #463943;
+  color: #fff;
 }
